@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	div {
+	border: 3px solid #73ad21;
+	}
+	.img1 {
+	float: right;
+	}
+	.fix {
+	overflow: auto;
+	}
+	.img2 {
+	float: right;
+	}
+</style>
+</head>
+<body>
+	<p>이미지가 박스 영역을 벗어남</p>
+	<div><img class="img1" src="logo.jpg" alt="image" width="140" height="140">이미지 오른쪽 정렬 박스영역 이탈</div>
+	<p style="clear:right">ㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱ</p>
+	<div class="fix"><img class="img2" src="logo.jpg" alt="img" width="140" height="140">ㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㅇ</div>
+	
+</body>
+</html>
